@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eee;
+  position: relative;
+}
+
+#main-doc {
+  width: 100%;
+  background-color: yellow;
+
+}
+
+.left {
+  width: 20%;
+  line-height: 28px;
+  position: fixed;
+  float: left;
+  top: 50px;
+  border: 1px solid black;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.right {
+  width: 80%;
+  background-color: white;
+  float: right;
+  padding: 20px;
+  padding-right: 30px;
+}
+
+header {
+  background-color: #B3AFB4;
+  position: fixed;
+  width: 20%;
+  height: 50px;
+  font-size: 2vw;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.article {
+  margin-top: 40px;
+}
+
+p{
+  font-size: 18px;
+  margin: 10px;
+}
+
+.ulist{
+  font-size: 18px;
+  padding-left: 40px;
+}
+
+.code{
+  margin: 10px;
+  margin-right: 20px;
+  font-family: 'Source Code Pro', monospace;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: lightgrey;
+  width: 100%;
+}
+
+.border {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+}
